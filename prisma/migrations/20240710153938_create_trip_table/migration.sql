@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE "trips" (
     "id" TEXT NOT NULL PRIMARY KEY,
-    "detsination" TEXT NOT NULL,
+    "destination" TEXT NOT NULL,
     "starts_at" DATETIME NOT NULL,
     "ends_at" DATETIME NOT NULL,
     "is_confirmed" BOOLEAN NOT NULL DEFAULT false,
